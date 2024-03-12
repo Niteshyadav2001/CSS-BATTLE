@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+
+/* moving the whole body to center  */
+.container{
+    /* display: flex; */
+    /* justify-content: center; */
+
+    margin-left: 250px;
+    /* margin-top: px; */
+    margin-right: 250px;
+    margin-bottom: 80px;
+    padding: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    /* align-content: center; */
+    background-color: white;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.details{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: grey;
+}
+
+.img_sections{
+    display: flex;
+    justify-content: center;
+}
+
+.img_sections img{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.icon1{
+    border-radius: 10%;;
+    width: 40px;
+}
+.icon2{
+    border-radius: 50%;;
+    width: 40px;
+}
+.icon3{
+    border-radius: 50%;;
+    width: 40px;
+}
+.icon4{
+    border-radius: 10%;;
+    width: 40px;
+}
+.icon5{
+    border-radius: 10%;;
+    width: 40px;
+}
+
+.bttns{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bttns button{
+    padding: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#btn1{
+    color: white;
+    background-color: rgb(203, 113, 206);
+    border: rgb(203, 113, 206);
+}
+#btn2{
+    color: white;
+    background-color: rgb(206, 89, 89);
+    border: rgb(206, 89, 89);
+}
+
+/* bean  */
+.bean_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.bean_image img{
+    border: solid black 2px;
+    border-radius: 50%;
+    transform: rotate(-25deg);
+}
+.bn_image{
+    position: relative;
+    z-index: 1;
+    top: 70px;
+}
